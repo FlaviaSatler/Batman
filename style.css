@@ -1,0 +1,96 @@
+body{
+    background-color: #ffd200;
+    position: relative;
+    overflow: hidden;
+}
+
+.base{
+    position: absolute;
+    top: 188px;
+    left: 336px;
+    width: 644px;
+    height: 374px;
+    background-color: #000;
+    z-index: 1; 
+}
+
+.lat-esquerda, .lat-direita{
+    position: absolute;
+    top: 188px;
+    width: 374px;
+    height: 374px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.lat-esquerda{
+    left: 160px;
+    z-index: 2;
+}
+
+.lat-direita{
+    left: 792px;
+    z-index: 3;
+}
+
+.base-1, .base-2, .base-3, .base-4{
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    background-color: #ffd200;
+}
+
+.base-1{
+    top: 455px;
+    left: 254px;
+    z-index: 4;
+}
+
+.base-2{
+    top: 484px;
+    left: 428px;
+    z-index: 5;
+}
+
+.base-3{
+    top: 484px;
+    left: 658px;
+    z-index: 6;
+}
+
+.base-4{
+    top: 455px;
+    left: 834px;
+    z-index: 7;
+}
+
+.topo-1, .topo-2{
+    position: absolute;
+    width: 314px;
+    height: 314px;
+    background-color: #ffd200;
+    border-radius: 50%;
+    top: -10px;
+}
+
+.topo-1{
+    left: 316px;
+    z-index: 8;
+}
+
+.topo-2{
+    left: 698px;
+    z-index: 9;
+}
+
+.superior{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    background-color: #ffd200;
+    border-radius: 50%;
+    top: 152px;
+    left: 627px;
+    z-index: 10; 
+}
